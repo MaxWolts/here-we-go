@@ -1,0 +1,21 @@
+
+
+.homeHereCardsContainer {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    justify-items: center;
+}
+.homeHereBackground {
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+@media (max-width: 370px) {
+    .homeHereCardsContainer {
+        justify-items: baseline;
+    }
+}

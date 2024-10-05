@@ -1,0 +1,13 @@
+.homeHereTitle {
+    display: grid;
+    justify-items: center;
+    padding: 2rem 0rem;
+}
+.homeHereTitle h1{
+    font-size: 6rem;
+}
+@media (min-width: 720px) {
+    .homeHereTitle h1{
+        font-size: 7.688rem;
+    }
+}
