@@ -1,7 +1,8 @@
 .hackTextPage {
   background-color: #f9f9f9;
   min-height: 70vh;
-  padding-top: 2rem;
+  padding-top: 5rem;
+  position: relative;
   text-align: center;
 }
 .hackTextContainer {

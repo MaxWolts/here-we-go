@@ -1,0 +1,14 @@
+.goBackHome {
+  background: hsl(216, 100%, 68%);
+  border-radius: .2rem;
+  padding: 1rem 0;
+  position: absolute;
+  right: 0;
+  top: -2rem;
+  margin-bottom: 2rem;
+  width: 6rem;
+}
+.goBackHome a {
+  color: #161616;
+  font-weight: bold;
+}

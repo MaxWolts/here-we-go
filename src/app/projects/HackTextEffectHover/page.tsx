@@ -1,6 +1,7 @@
 "use client";
 import { useRef } from "react";
 import { raleway } from "@/app/fonts";
+import { GoBackHome } from "@/app/components/GoBackHome";
 import styles from "./styles.module.css";
 import gsap from "gsap";
 
@@ -53,6 +54,7 @@ const HackTextEffectClick: React.FC<Props> = () => {
 
   return (
     <div className={`${styles.hackTextPage} ${raleway.className}`}>
+      <GoBackHome/>
       <div className={styles.hackTextContainer} ref={containerRef}>
         <h1 className={styles.title} data-value={"Hello world"} ref={targetRef}>
           Hello world
