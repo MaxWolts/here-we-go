@@ -1,0 +1,33 @@
+.hackTextPage {
+  background-color: #f9f9f9;
+  min-height: 70vh;
+  padding-top: 2rem;
+  text-align: center;
+}
+.hackTextContainer {
+  border: 1px solid black;
+  margin: auto;
+  overflow: hidden;
+  width: 15.625rem;
+  padding: 0.5rem;
+}
+.hackTextContainer h1 {
+  color: #161616;
+  margin: auto;
+  font-size: 2.5rem;
+  width: max-content;
+}
+.hackTextTriggerButton {
+  background-color: #f9f9f9;
+  border: 1px solid #161616;
+  color: #161616;
+  font-family: inherit;
+  font-weight: bold;
+  margin-top: 3rem;
+  padding: .5rem 1rem;
+}
+.hackTextTriggerButton:active {
+  background-color: #FF016F;
+  color: #f9f9f9;
+}
+

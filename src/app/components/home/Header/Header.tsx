@@ -1,4 +1,4 @@
-import { zen } from "../../../../fonts";
+import { zen } from "../../../fonts";
 import styles from "./styles.module.css";
 
 export function Header() {

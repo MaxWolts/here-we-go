@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { raleway } from "../../../../fonts";
+import { raleway } from "../../../fonts";
 import styles from "./styles.module.css";
 
 interface Props {
@@ -27,7 +27,7 @@ export function Card ({img, imgAlt, title, type}: Props) {
                 <span className={styles.cardCategory} style={{ fontWeight: 300 }}>{type}</span>
             </div>
         </div>
-       </div> 
+       </div>
     )
-    
+
 }
