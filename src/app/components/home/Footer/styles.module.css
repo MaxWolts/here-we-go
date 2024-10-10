@@ -1,3 +1,7 @@
 .footerHome {
-    padding: 2rem .5rem;
+  background-color: #f9f9f9;
+  border-radius: 15px 15px 0 0;
+  color: #161616;
+  margin-top: 4rem;
+  padding: 2rem .5rem;
 }

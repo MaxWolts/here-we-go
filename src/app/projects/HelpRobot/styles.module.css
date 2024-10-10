@@ -1,0 +1,58 @@
+.robotContainerSection {
+  background-color: #ff66a8;
+  height: 70vh;
+  width: 100%;
+}
+.buttonHelp {
+  left: 50%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.robotContainer {
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+}
+.robotContainer::after {
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px 0px #4141415e;
+  background-color: #f9f9f9;
+  content: "";
+  left: 2.5rem;
+  height: 5rem;
+  position: absolute;
+  top: 4.3rem;
+  transform: scale(0);
+  transition: transform 0.2s;
+  width: 5rem;
+  z-index: -1;
+}
+.robotContainer:hover::after {
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+.robotContainer:hover::before {
+  transform: scaleX(1);
+  transition: transform 0.5s;
+}
+
+.robotContainer::before {
+  background-color: #f5f5f5;
+  border-radius: 5%;
+  box-shadow: -1px 2px 6px 1px #4141414a;
+  color: #4a99de;
+  content: "Do you need help?";
+  font-size: 1.2rem;
+  font-weight: bold;
+  left: -9rem;
+  position: absolute;
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  top: 6rem;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.2s;
+  width: fit-content;
+  z-index: -2;
+}

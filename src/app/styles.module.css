@@ -4,6 +4,9 @@
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   justify-items: center;
 }
+.homeHereCardLink {
+  text-decoration: none;
+}
 .homeHereBackground {
   top: 0;
   position: fixed;
